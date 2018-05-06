@@ -1,0 +1,14 @@
+{
+    "name": "ashicus/wp-boilerplate",
+    "description": "WordPress Boilerplate Project",
+    "repositories": [
+        {
+            "type":"composer",
+            "url":"https://wpackagist.org"
+        }
+    ],
+    "require": {
+        "wpackagist-plugin/wp-super-cache": "^1.6",
+        "timber/timber": "^1.7"
+    }
+}
