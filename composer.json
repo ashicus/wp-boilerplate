@@ -9,6 +9,8 @@
     ],
     "require": {
         "wpackagist-plugin/wp-super-cache": "^1.6",
-        "timber/timber": "^1.7"
+        "timber/timber": "^1.7",
+        "zurb/foundation": "^6.4",
+        "components/jquery": "^3.3"
     }
 }
