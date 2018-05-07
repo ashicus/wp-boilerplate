@@ -42,6 +42,7 @@ class MySite extends TimberSite {
 	function add_to_global_context( $context ) {
 		$context['foo'] = 'bar';
 		$context['menu'] = new TimberMenu();
+		$context['options'] = get_fields('options');
 		$context['site'] = $this;
 		return $context;
 	}
